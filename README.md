@@ -1,8 +1,7 @@
 # Hello! This is Anhua Wu
 ### Me and my partner created a NES Zelda remake with a very interesting harp weapon :)
 #### Hint: Press 4 to go to the custom level
-### Check it out here!
-https://anhuaw.itch.io/zelda-remake
+### Check it out  >> [HERE](https://anhuaw.itch.io/zelda-remake)!
 
 ----
 I was in charge of implementing
