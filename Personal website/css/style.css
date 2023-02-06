@@ -1,0 +1,420 @@
+html {
+    /*    1rem = 16px*/
+    font-size: 1rem;
+}
+
+body {
+    background-color: rgb(116, 133, 155);
+    /*    body font*/
+    font-family: 'Montserrat', sans-serif;
+    /*    font-weight: 700;*/
+    /*    line-height is 150% of the font size*/
+    line-height: 1.5;
+    color: rgb(234, 221, 218);
+}
+
+p {
+    margin-bottom: 1.3rem;
+}
+
+/*this is a group selection, selecting all the headlines h1-h4*/
+h1,
+h2,
+h3,
+h4 {
+    /*    headline font*/
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: bottom 1.333rem;
+}
+
+h1 {
+    /*  top:0 right:0  bottom:0.5rem left:0*/
+    margin: 0 0 0.5rem 0;
+    font-size: 3.157rem;
+}
+
+h2 {
+    /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+    margin: 1.414rem 0 0.5rem 0;
+    font-size: 2.369rem;
+    margin: bottom 1.333rem
+}
+
+h3 {
+    /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+    margin: 1.414em 0 0.5rem 0;
+    font-size: 1.777rem;
+}
+
+h4 {
+    /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+    margin: 1.414em 0 0.5rem 0;
+    font-size: 1.333rem;
+}
+h5{
+    margin: 1.414rem 0 0.5rem 0;
+    font-size: 2.369rem;
+    margin: bottom 40rem;
+}
+
+
+/*Interactive elements*/
+
+/* link*/
+
+a {
+    color:rgb(229, 201, 194);
+}
+
+a:hover {
+    color: rgb(190, 135, 135);
+    text-decoration: none;
+}
+
+/*button style*/
+/*solid button style*/
+.btn-primary {
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    line-height: 2rem;
+    border-radius: 3rem;
+    /*    top:1 right:2 bottom:1 left:2*/
+    /*    the size of button*/
+    padding: 1rem 2rem;
+    background-color: rgb(229,201,194);
+    color: rgb(129, 76, 76);
+    border: none;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color:rgb(190, 135, 135);
+    opacity: 0.8;
+}
+
+/*outline button style*/
+.btn-outline-primary {
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    line-height: 2rem;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    color: rgb(229,201,194);
+    background-color: transparent;
+    border: 1px rgb(229,201,194) solid;
+    transition: all 0.5s;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color: darkcyan;
+    border-color: darkcyan;
+}
+
+/*self-defined class names*/
+/*change is here*/
+.view {
+    background:rgb(229, 207, 194) url("../img/alt.jpeg")center center no-repeat; 
+    background-size:cover
+}
+.view .row{
+    height: 100vh;
+}
+.view.h1{
+    color:rgb(165, 162, 167);
+    font-weight: 900;
+}
+.view.h2{
+    color:white;
+    font-weight:500;
+}
+
+.about {
+    padding-top:6rem;
+    padding-bottom:10rem;
+    background-color:rgb(116, 133, 155);
+}
+.portfolio{
+    padding-bottom:2rem;
+}
+
+/*Portfolio thumbnails*/
+.portfolio-link{
+    padding-top:10rem;
+    padding-bottom:6rem;
+}
+.portfolio-link img {
+    filter:grayscale(40%);
+    padding-top: 2rem;
+}
+.portfolio-link img:hover {
+    filter:grayscale(0%);
+}
+.portfolio+h2{
+    margin-bottom:5rem;
+}
+.portfolio-link+h4{
+    margin-top:1rem;
+}
+.portfolio-link+h4{
+    margin-bottom:2rem;
+}
+
+/*project thumbnails*/
+.project-link{
+    padding-top:10rem;
+    padding-bottom:6rem;
+}
+.project-link img {
+    filter:grayscale(40%);
+    padding-top: 2rem;
+}
+.project-link img:hover {
+    filter:grayscale(0%);
+}
+.project+h2{
+    margin-bottom:5rem;
+}
+
+.project-link+h4{
+    margin-top:1rem;
+}
+.project-link+h4{
+    margin-bottom:2rem;
+}
+
+/*portfolio modal*/
+.portfolio-modal .modal-body {
+    position: static;
+}
+
+.portfolio-modal{
+    overflow: auto;
+}
+
+
+/*modal box size*/
+.portfolio-modal .modal-dialog {
+/*    Full screen style*/
+    max-width: 100%;
+    max-height: 100%;
+    width:100%;
+    height:100%;
+    margin: 0rem auto;
+}
+
+
+/*content area*/
+.portfolio-modal .modal-content {
+    /*the paragraph font color*/
+    color:rgb(190, 135, 135);
+    padding: 0 0 2rem 0;/*left right top bottom*/
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: left;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /*the background-color*/
+    background-color:white ;
+    /*rgba for transparency*/
+}
+
+/*project title*/
+.portfolio-modal .modal-content h2 {
+    color: rgb(129, 76, 76);
+    font-size: 2.6rem;
+    margin-top:3rem;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom:rem;
+}
+
+/*bottom of the modal box including prev, next, back to work*/
+.portfolio-modal .modal-footer {
+    border: none;
+}
+
+
+/*the X close icon*/
+.portfolio-modal .modal-header .close {
+    color: rgb(230, 165, 165);
+    font-size:4rem;
+    font-weight:300;
+    padding-right:2rem;
+}
+
+.portfolio-modal .modal-header {
+    border-bottom:none;
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+/*modal box prev, next and back to work link color*/
+.portfolio-modal a.next,
+.portfolio-modal a.prev,
+.portfolio-modal a.back {
+    color: rgb(190, 135, 135);
+    opacity:50%;
+}
+
+.portfolio-modal a.next:hover,
+.portfolio-modal a.prev:hover,
+.portfolio-modal a.back:hover {
+    color: rgb(190, 135, 135);
+    opacity:100%;
+}
+
+
+
+
+/*project modal*/
+.portfolio-modal .modal-body {
+    position: static;
+}
+
+.portfolio-modal{
+    overflow: auto;
+}
+
+/*modal box size*/
+.portfolio-modal .modal-dialog {
+/*    Full screen style*/
+    max-width: 100%;
+    max-height: 100%;
+    width:100%;
+    height:100%;
+    margin: 0rem auto;
+}
+
+
+/*content area*/
+.portfolio-modal .modal-content {
+    /*the paragraph font color*/
+    color:rgb(190, 135, 135);
+    padding: 0 0 2rem 0;/*left right top bottom*/
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: left;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /*the background-color*/
+    background-color:white ;
+    /*rgba for transparency*/
+}
+
+/*project title*/
+.portfolio-modal .modal-content h2 {
+    color: rgb(129, 76, 76);
+    font-size: 2.6rem;
+    margin-top:0;
+
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom:rem;
+}
+
+/*bottom of the modal box including prev, next, back to work*/
+.portfolio-modal .modal-footer {
+    border: none;
+}
+
+
+/*the X close icon*/
+.portfolio-modal .modal-header .close {
+    color: rgb(230, 165, 165);
+    font-size:4rem;
+    font-weight:300;
+    padding-right:2rem;
+}
+
+.portfolio-modal .modal-header {
+    border-bottom:none;
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+/*modal box prev, next and back to work link color*/
+.portfolio-modal a.next,
+.portfolio-modal a.prev,
+.portfolio-modal a.back {
+    color: rgb(190, 135, 135);
+    opacity:50%;
+}
+
+.portfolio-modal a.next:hover,
+.portfolio-modal a.prev:hover,
+.portfolio-modal a.back:hover {
+    color: rgb(190, 135, 135);
+    opacity:100%;
+}
+/*typewriter effect */
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid  rgb(129, 76, 76); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  .typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(129, 76, 76);/* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(129, 76, 76); }
+  }
+
+  /*navigation menu links focus color*/
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: white;
+}
+
+.navbar-light.navbar-nav{
+    color:white;
+}
+
+/*   When scroll to the section, the menu items will automatically turn to a different color */
+
+.navbar-light a.active {
+    color: lightcyan !important;
+    /*    background-color: #55555a !important;*/
+}
+
+.lightbackground{
+    padding-top: 2rem;
+
+}
+
+
