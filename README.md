@@ -1,4 +1,4 @@
-### Hello! This is Anhua Wu
+### Anhua Wu Portfolio
 # NES Zelda remake
 #### Hint: Press 4 to go to the custom level
 ### Check it out  >> [HERE](https://anhuaw.itch.io/zelda-remake)!
