@@ -1,9 +1,8 @@
-# Hello! This is Anhua Wu
-### Me and my partner created a NES Zelda remake with a very interesting harp weapon :)
+### Hello! This is Anhua Wu
+# NES Zelda remake
 #### Hint: Press 4 to go to the custom level
 ### Check it out  >> [HERE](https://anhuaw.itch.io/zelda-remake)!
-
-----
+---
 I was in charge of implementing
 - Player animation and control
 - Graphic User interface
@@ -22,3 +21,9 @@ I also helped with fixing
 - Custom level Text and guidance
 - glitches with player infinte sword and attack
 - Cheatmode on and off
+
+# AstroEscape
+#### Hint: Press 1 to restart
+### Check it out  >> [HERE](https://anhuaw.itch.io/zelda-remake)!
+---
+Use gravity to break through tiles and reveal hidden collectibles.
