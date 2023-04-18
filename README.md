@@ -28,3 +28,13 @@ I also helped with fixing
 ---
 - Desinged and implemented the fast prototype with C# and Unity
 - Experimented with level progression in this build. Tried Camera movement and creating new scenes and finally decided to destroy and regenerate tilemaps as the player progresses to the next level.
+
+#RoBoo
+#### Use the power of bubble to solve puzzles
+### Check it out >> [HERE](https://kawasemii.github.io/eecs494-roboo/)
+---
+- Designed and implemented guidance levels
+- implemented some of the UI components
+- Designed and created most of the level maps
+- Created character movement animation
+- Curated free/paid online assets for in-game use (including sprites, tiles, VFX, music and SFX)
